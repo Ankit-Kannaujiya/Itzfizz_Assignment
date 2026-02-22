@@ -18,7 +18,6 @@ gsap.from("#div1 #h3", {
         trigger: "#div1 #h3",
         scroller: "body",
         start: "top 60%",
-        markers: true,
         scrub: 2,
     }
 })
@@ -48,7 +47,6 @@ gsap.from("main #main-img", {
         trigger:"main #main-img",
         scroller:"body",
         start:"top -20%",
-        markers:true,
         end:"top 0%",
         scrub: 5,
 
@@ -91,4 +89,5 @@ gsap.to("#well #cover", {
         scrub: 2,
         pin:true,
     }
+
 })
