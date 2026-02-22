@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    overflow-x: hidden;
+}
+#well{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+#well #arrow {
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+#well h1{
+    font-weight: 700;
+    font-size: 7vw;
+    background-color: rgb(220, 220, 220);
+}
+#well #cover{
+    height: 93%;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    position:absolute;
+}
